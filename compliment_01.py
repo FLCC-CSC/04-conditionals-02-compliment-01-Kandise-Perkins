@@ -1,8 +1,8 @@
 # FILE NAME - compliment_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Kandise Perkins
+# DATE: October 5, 2025  
+# BRIEF DESCRIPTION: Using an if statement give the user a compliment.
 
 
 
@@ -14,13 +14,20 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
+def Main() :
+    compliment()
+def compliment():
+#prompt   
+   question = input('Would you like a compliment? ')
+
+#if yes
+   if question == "yes":
+    print('You have wonderful eyes.')
+#output
+   print("Thank you for playing.")
 
 
-
-
-
-
-
+Main()
 
 
 
@@ -66,12 +73,12 @@ Thank you for playing.
 '''
 
 1. On a scale of 1 to 10 (where 10 is the hardest), how would you rate this lab?
-
+I would rate it a 7.
 
 
 
 2. What was the hardest part of this lab?
-
+I struggled with getting the format of the if statement correct.
 
 
 
